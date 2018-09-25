@@ -1,0 +1,13 @@
+inherit_from: .rubocop_todo.yml
+
+Style/ClassAndModuleChildren:
+ EnforcedStyle: compact
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Style/Documentation:  
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
